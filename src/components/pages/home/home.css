@@ -56,6 +56,7 @@ a {
 
   .console-container {
     color: #1e1d1db8;
+    font-size: 1.6em;
   }
 
   .container__body {
@@ -75,6 +76,6 @@ a {
     margin-right: 10px;
   }
   .entry > span:nth-child(2) {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 }
