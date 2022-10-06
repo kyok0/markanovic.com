@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  min-height: 100% !important;
+}
+
+html {
+  overflow: auto;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+.app {
+  box-sizing: border-box;
+  background-image: url("../../../assets/images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+
+  min-height: 100%;
+  align-items: center;
+  padding: 60px 0;
+  flex-flow: column;
+}
+
+.container {
+  display: flex;
+  padding: 70px 30px 20px;
+  flex-direction: column;
+  width: min(80%, 800px);
+  background: rgba(237, 237, 237, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(237, 237, 237, 0.3);
+}
+
+@media only screen and (max-width: 960px) {
+  .app {
+    padding: 40px 20px;
+    box-sizing: border-box;
+    height: auto;
+  }
+
+  .console-container {
+    color: #1e1d1db8;
+  }
+
+  .container__body {
+    flex-direction: column;
+  }
+
+  .container__body > div:not(:last-child) {
+    padding-bottom: 60px;
+  }
+
+  .list-dot {
+    color: #5f93a98a;
+  }
+
+  .entry > span:nth-child(1) {
+    font-size: 1.6em;
+    margin-right: 10px;
+  }
+  .entry > span:nth-child(2) {
+    font-size: 1.2em;
+  }
+}

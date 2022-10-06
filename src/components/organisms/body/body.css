@@ -1,0 +1,14 @@
+.container__body {
+  padding: 80px 0;
+  display: flex;
+  overflow: auto;
+  flex-direction: row;
+  flex: 1;
+}
+
+.container__body > div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  font-weight: 600;
+}

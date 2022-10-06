@@ -1,0 +1,24 @@
+.container__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.console-container {
+  font-family: Khula;
+  text-align: center;
+  font-size: 2em;
+  color: white;
+}
+
+#avatar {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background: url("../../../assets/images/profile.png");
+  background-size: cover;
+  background-position: 50% 77%;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}

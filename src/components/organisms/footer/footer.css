@@ -1,0 +1,28 @@
+.container__footer {
+  padding: 50px;
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  transition: 0.1s linear all;
+}
+
+.container__footer > span {
+  transition: 0.2s linear all;
+}
+
+.container__footer > span:hover {
+  cursor: pointer;
+}
+
+#instagram:hover {
+  color: #e1306c;
+}
+
+#linkedin:hover {
+  color: #0a66c2;
+}
+
+#github:hover {
+  color: #333;
+}

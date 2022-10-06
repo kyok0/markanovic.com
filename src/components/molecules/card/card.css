@@ -1,0 +1,43 @@
+.info__header,
+.skills__header,
+.interests__header {
+  font-family: "Khula", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+  height: 60px;
+}
+
+.info__body,
+.skills__body,
+.interests__body {
+  font-family: "Poppins", sans-serif;
+  flex: 1;
+  padding-top: 20px;
+  flex-direction: row;
+}
+
+.icons {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.entry {
+  margin: 10px 0;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.entry > * {
+  display: flex;
+}
+
+.entry > span:nth-child(1) {
+  margin-right: 3px;
+  font-size: 1.4em;
+  color: #0000007a;
+  font-weight: bold;
+}
