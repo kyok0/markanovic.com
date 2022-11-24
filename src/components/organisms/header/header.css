@@ -13,6 +13,7 @@
 }
 
 #avatar {
+  filter: blur(0.45px);
   width: 200px;
   height: 200px;
   position: relative;
