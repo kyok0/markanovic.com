@@ -12,6 +12,23 @@ import Card from "../../molecules/card/card";
 import "./cards.css";
 
 const Cards: FunctionComponent = () => {
+  const skills = [
+    "React / HTML / CSS",
+    "Python / Go / Java",
+    "Infra Architecture",
+    "React Native",
+    "Linux / Unix",
+    "DevOps",
+  ];
+  const interests = [
+    "Development",
+    "Learning",
+    "Trekking",
+    "Chess",
+    "Gaming",
+    "Beer",
+  ];
+
   return (
     <>
       <Card
@@ -29,27 +46,19 @@ const Cards: FunctionComponent = () => {
       <Card
         title="skills"
         cardIcon={SkillsIcon}
-        cardContent={[
-          { icon: <VscCircleFilled className="list-dot" />, text: "React / HTML / CSS" },
-          { icon: <VscCircleFilled className="list-dot" />, text: "Python / Go / Java" },
-          { icon: <VscCircleFilled className="list-dot" />, text: "Infra Architecture" },
-          { icon: <VscCircleFilled className="list-dot" />, text: "React Native" },
-          { icon: <VscCircleFilled className="list-dot" />, text: "Linux / Unix" },
-          { icon: <VscCircleFilled className="list-dot" />, text: "DevOps" },
-        ]}
+        cardContent={skills.map((skill) => ({
+          icon: <VscCircleFilled className="list-dot" />,
+          text: skill,
+        }))}
       />
 
       <Card
         title="interests"
         cardIcon={InterestsIcon}
-        cardContent={[
-          { icon: <VscCircleFilled className="list-dot--color" />, text: "Development" },
-          { icon: <VscCircleFilled className="list-dot--color" />, text: "Learning" },
-          { icon: <VscCircleFilled className="list-dot--color" />, text: "Trekking" },
-          { icon: <VscCircleFilled className="list-dot--color" />, text: "Chess" },
-          { icon: <VscCircleFilled className="list-dot--color" />, text: "Gaming" },
-          { icon: <VscCircleFilled className="list-dot--color" />, text: "Beer" },
-        ]}
+        cardContent={interests.map((interest) => ({
+          icon: <VscCircleFilled className="list-dot" />,
+          text: interest,
+        }))}
       />
     </>
   );
