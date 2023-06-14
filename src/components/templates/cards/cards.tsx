@@ -56,7 +56,7 @@ const Cards: FunctionComponent = () => {
         title="interests"
         cardIcon={InterestsIcon}
         cardContent={interests.map((interest) => ({
-          icon: <VscCircleFilled className="list-dot" />,
+          icon: <VscCircleFilled className="list-dot--red" />,
           text: interest,
         }))}
       />
