@@ -4,7 +4,7 @@ import "./header.css";
 
 const Header: FunctionComponent = () => {
   const titles: string[] = [
-    "Staff Engineer",
+    "Principal Engineer",
     "Full Stack Developer",
     "DevOps",
     "Linux Lover",

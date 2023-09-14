@@ -36,7 +36,7 @@ const Cards: FunctionComponent = () => {
         cardIcon={BasicInfoIcon}
         cardContent={[
           { icon: <CgProfile />, text: "Ivan Markanović" },
-          { icon: <MdOutlineWorkOutline />, text: "Staff Engineer@Infobip" },
+          { icon: <MdOutlineWorkOutline />, text: "Principal Engineer@Infobip" },
           { icon: <BiHomeAlt />, text: "Zagreb, Croatia" },
           { icon: <BiBulb />, text: "Self motivated" },
           { icon: <IoGameControllerOutline />, text: "Gamer" },
